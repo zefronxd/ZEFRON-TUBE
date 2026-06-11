@@ -1,0 +1,12 @@
+{
+  "framework": null,
+  "buildCommand": "pnpm --filter @workspace/zefron-tube run build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "env": {
+    "BASE_PATH": "/"
+  }
+}

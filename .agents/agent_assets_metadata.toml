@@ -1,0 +1,37 @@
+uploads = []
+
+[[generated]]
+id = "WSe-Gz4GCV--8kxE3tkGa"
+uri = "file://artifacts/zefron-tube/public/zefron-logo-1.png"
+type = "image"
+title = "zefron tube chibi boy logo"
+
+[[generated]]
+id = "W_GFayAopz0UZp3fnvBkE"
+uri = "file://artifacts/zefron-tube/public/zefron-logo-2.png"
+type = "image"
+title = "zefron tube shonen anime logo"
+
+[[generated]]
+id = "MUJy8p_PW6TGi3GWDLPCn"
+uri = "file://artifacts/zefron-tube/public/zefron-logo-3.png"
+type = "image"
+title = "zefron tube kawaii pastel logo"
+
+[[outputs]]
+id = "KoTKMnAExru-evR_ie1Xv"
+uri = "file://artifacts/zefron-tube/public/zefron-logo-1.png"
+type = "image"
+title = "Style 1 — Chibi Boy (neon red glow)"
+
+[[outputs]]
+id = "axzLc2W4TE0EBC3mwxtfV"
+uri = "file://artifacts/zefron-tube/public/zefron-logo-2.png"
+type = "image"
+title = "Style 2 — Shonen Action (dramatic speed lines)"
+
+[[outputs]]
+id = "9ANyRpvQ5IwI9yFkVcJF3"
+uri = "file://artifacts/zefron-tube/public/zefron-logo-3.png"
+type = "image"
+title = "Style 3 — Kawaii Pastel (soft sticker art)"

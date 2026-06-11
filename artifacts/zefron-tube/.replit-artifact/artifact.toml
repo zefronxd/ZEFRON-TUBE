@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Zefron Tube"
+version = "1.0.0"
+id = "artifacts/zefron-tube"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18522
+
+[services.development]
+run = "pnpm --filter @workspace/zefron-tube run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/zefron-tube", "run", "build" ]
+publicDir = "artifacts/zefron-tube/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18522"
+BASE_PATH = "/"

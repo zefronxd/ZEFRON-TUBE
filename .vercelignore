@@ -1,0 +1,4 @@
+# Exclude api-server source so Vercel doesn't auto-detect it as a serverless function.
+# Keep package.json so pnpm workspace resolution still works.
+artifacts/api-server/src
+artifacts/api-server/build.mjs
